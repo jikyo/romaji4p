@@ -6,8 +6,8 @@ except ImportError:
 
 setup(
     name='romaji',
-    version='0.0.1',
-    description='a converter to romanize Japanese hiragana/katakana string',
+    version='0.0.2',
+    description='A converter to romanize Japanese hiragana/katakana string',
     long_description=open('README.rst', 'r', encoding='utf-8').read(),
     author='Junnosuke Moriya',
     author_email='shinsen.jikyo@gmail.com',

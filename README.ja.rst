@@ -19,14 +19,9 @@ romaji
 Installation
 -----
 
-(in preparation)
-
 .. code-block:: BashLexer
 
-    $ git clone https://github.com/jikyo/romaji4p.git
-    $ cd romaji4p
-    $ pip install .
-
+    $ pip install romaji
 
 Usage
 -----
