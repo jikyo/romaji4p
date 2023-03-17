@@ -1,5 +1,5 @@
 romaji
------
+------
 `romaji` is a converter library to romanize Japanese hiragana/katakana string by standard and IME typing style.
 Even though `pykakasi <https://pypi.org/project/pykakasi/>`_ already has provided the same functions, and returns only one romanized string.
 However, there exists several different romanization systems, so one hiragana/katakana string has so many romanize string.
@@ -16,9 +16,9 @@ Therefor, `romaji` does not directly implement the standard system like Hepburn,
 
 
 Installation
------
+------------
 
-.. code-block:: BashLexer
+.. code-block:: shell
 
     $ pip install romaji
 

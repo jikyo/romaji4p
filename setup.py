@@ -9,6 +9,7 @@ setup(
     version='0.1.0',
     description='A converter to romanize Japanese hiragana/katakana string',
     long_description=open('README.rst', 'r', encoding='utf-8').read(),
+    long_description_content_type='text/x-rst',
     author='Junnosuke Moriya',
     author_email='shinsen.jikyo@gmail.com',
     url='https://github.com/jikyo/romaji4p',
