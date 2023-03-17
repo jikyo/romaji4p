@@ -22,7 +22,7 @@ class Transliteration:
         """
         if sub is None:
             return
-        if sub.index is not self.index:
+        if sub.index != self.index:
             return
         self.index += sub.window
         self.substrings.append(sub)
@@ -65,7 +65,7 @@ class Transliteration:
 
     def romajis(self):
         result = set()
-        if len(self.substrings) is 0:
+        if len(self.substrings) == 0:
             return result
         for systems in Transliteration.power_set(self.systems):
             romaji = Transliteration.romaji(self.substrings, systems)

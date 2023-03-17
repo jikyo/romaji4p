@@ -32,7 +32,7 @@ def transliterate(src):
     """
     if src is None:
         return list()
-    if len(src) is 0:
+    if len(src) == 0:
         return list()
 
     lookahead0 = Transliteration()
